@@ -1,0 +1,31 @@
+…or create a new repository on the command line
+
+echo "# Senac-React-Native" >> README.md
+
+Inicializa um repositório local
+git init
+//
+git add README.md
+git commit -m "first commit"
+//
+Conecta um repositório local a um remoto
+git branch -M main
+//
+Adiciona arquivos ao commit
+git remote add origin https://github.com/natichinelato/Senac-React-Native.git
+//
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/natichinelato/Senac-React-Native.git
+git branch -M main
+
+Transfere os arquivos comitados localmente para o remoto
+git push -u origin main
+
+guest01@TMELABD015 MINGW64 ~/Desktop/React Native
+
+Verifica qual repositório remoto está conectado
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
